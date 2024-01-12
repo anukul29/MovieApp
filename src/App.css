@@ -36,3 +36,67 @@
     transform: rotate(360deg);
   }
 }
+.navbar{
+  display: flex;
+  width: 100vw;
+  background: #0E86D4;
+  padding: 1rem;
+}
+.banner-card{
+  height: 70vh;
+  width: 100vw;
+  position: relative;
+}
+.banner-img{
+  height: 70vh;
+  width: 100vw;
+}
+.banner-title{
+    margin-top: -2rem;
+    background-color: #313131;
+    height: 2rem;
+    color: white;
+}
+
+.film-list{
+  width: 100vw;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  padding: 5rem;
+  justify-content: center;
+  margin: 0rem;
+  margin-top: -4rem;
+}
+.film-card{
+  width: 20rem;
+  height: 50vh;
+  margin: 0.7rem;
+}
+.film-img{
+  width: 100%;
+  height: 100%;
+}
+.film-btn{
+  position: absolute;
+  width: 50%;
+  bottom: 4rem;
+  left: 5rem;
+}
+.paginate{
+  display: flex;
+  justify-content: center;
+}
+
+.fav-generes{
+  margin: 3rem;
+}
+.search-sort{
+  margin-left: 5rem;
+}
+.fav-tab{
+  margin-left: 5rem;
+}
+.fav-nav{
+  margin-left: 30%;
+}
